@@ -1,0 +1,36 @@
+/* Typography Styles */
+h1 {
+	font-family: "Abril Fatface", cursive;
+	font-weight: 400;
+	font-size: 3rem;
+}
+h2 {
+	font-family: "Abril Fatface", cursive;
+	font-weight: 400;
+	font-size: 2.5rem;
+}
+h3 {
+	font-family: "Abril Fatface", cursive;
+	font-weight: 400;
+	font-size: 2.0625rem;
+}
+h4 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+h5 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 0.9375rem;
+}
+nav {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+}
+p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
