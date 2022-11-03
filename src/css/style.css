@@ -1,4 +1,4 @@
-/* Typography Styles */
+/* * Typography Styles */
 h1,
 h2,
 h3,
@@ -52,18 +52,18 @@ p {
 	font-size: 1.25rem;
 }
 
-/* Image Styles */
+/* * Image Styles */
 img {
 	max-width: 100%;
 }
 
-/* Container Styles */
+/* * Container Styles */
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
 }
 
-/* Shadow Styles */
+/* * Shadow Styles */
 .shadow {
 	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
@@ -72,7 +72,7 @@ img {
 	box-shadow: 0 10px 15px -3px rgb(238, 138, 90, 0.4), 0 4px 6px -4px rgb(238, 138, 90, 0.4);
 }
 
-/* Header Styles */
+/* * Header Styles */
 header {
 	background-color: #e7ecf3;
 	padding: 3rem 2rem;
@@ -114,7 +114,7 @@ header nav a:last-child {
 	color: #ffffff;
 }
 
-/* Hero Section Styles */
+/* * Hero Section Styles */
 #hero {
 	padding: 2rem;
 	background-image: url(../img/hero-bg.jpg);
@@ -137,7 +137,7 @@ header nav a:last-child {
 	color: #ffffff;
 }
 
-/* Search Section Styles */
+/* * Search Section Styles */
 #search {
 	padding: 2rem;
 }
@@ -187,7 +187,7 @@ header nav a:last-child {
 	font-weight: 500;
 }
 
-/* Tours Styles */
+/* * Tours Styles */
 #tours {
 	padding: 2rem;
 	background-color: #e7ecf3;
@@ -252,7 +252,7 @@ header nav a:last-child {
 	gap: 1rem;
 }
 
-/* Why Us Styles */
+/* * Why Us Styles */
 #about {
 	padding: 2rem 2rem 0 2rem;
 	text-align: center;
@@ -287,7 +287,7 @@ header nav a:last-child {
 	font-weight: 500;
 }
 
-/* Destinations Styles */
+/* * Destinations Styles */
 #destinations {
 	padding: 2rem;
 }
@@ -345,7 +345,7 @@ header nav a:last-child {
 	background-image: url(../img/destinations-rio.jpg);
 }
 
-/* Footer Styles */
+/* * Footer Styles */
 footer {
 	background-color: #587c93;
 	padding: 4rem 2rem;

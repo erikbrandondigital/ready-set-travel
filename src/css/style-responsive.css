@@ -1,4 +1,4 @@
-/* Mobile Breakpoints */
+/* * Mobile Breakpoints */
 @media (min-width: 640px) {
 	#searchForm {
 		flex-direction: row;
@@ -32,7 +32,7 @@
 	}
 }
 
-/* Tablet Breakpoints */
+/* * Tablet Breakpoints */
 @media (min-width: 768px) {
 	.destinations {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -45,7 +45,7 @@
 	}
 }
 
-/* Header & Footer Breakpoints */
+/* * Header & Footer Breakpoints */
 @media (min-width: 830px) {
 	header .flex {
 		flex-direction: row;
@@ -61,7 +61,7 @@
 	}
 }
 
-/* Desktop Breakpoints */
+/* * Desktop Breakpoints */
 @media (min-width: 1024px) {
 	.tours {
 		grid-template-columns: 1fr 1fr;
