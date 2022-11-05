@@ -277,10 +277,15 @@ header nav a:last-child {
 	margin-top: 2rem;
 }
 
-#about .icons img {
-	height: 80px;
-	width: auto;
-	margin-bottom: 1rem;
+#about .icon-item {
+	width: 256px;
+	height: 256px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ee8a5a;
 }
 
 .icon-item .subtitle {
@@ -376,6 +381,10 @@ footer h4 {
 	color: #ffffff;
 }
 
+footer .container {
+	max-width: 1024px;
+}
+
 .footer-item {
 	width: 100%;
 	text-align: center;
@@ -404,8 +413,11 @@ footer h4 {
 .social-icons {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	margin-bottom: 1rem;
+	gap: 1rem;
+	color: #fff;
 }
 
 .social-icons a {

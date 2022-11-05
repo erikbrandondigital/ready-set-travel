@@ -7,14 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Page Title -->
 	<title>ReadySetTravel</title>
-	<!-- Import Google Fonts -->
+	<!-- Load Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400;500;700&display=swap"
 		rel="stylesheet">
-	<!-- Import CSS Reset -->
+	<!-- Load CSS Reset -->
 	<link rel="stylesheet" href="css/modern-normalize.css">
-	<!-- Import Custom Stylesheets -->
+	<!-- Load Custom Stylesheets -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style-responsive.css">
 </head>
@@ -101,16 +101,19 @@
 			<p class="subtitle slogan">We want to send you off with the perfectly planned vacation at a price you can
 				afford.</p>
 			<div class="icons">
-				<div class="icon-item">
-					<img src="img/icon-booking.png" alt="Booking calendar icon">
+				<div class="icon-item shadow">
+					<iconify-icon icon="healthicons:calendar" width="128" height="128">
+					</iconify-icon>
 					<p class="subtitle">Easy Booking</p>
 				</div>
-				<div class="icon-item">
-					<img src="img/icon-affordable.png" alt="Bag of money icon">
+				<div class="icon-item shadow">
+					<iconify-icon icon="healthicons:money-bag" width="128" height="128">
+					</iconify-icon>
 					<p class="subtitle">Affordable</p>
 				</div>
-				<div class="icon-item">
-					<img src="img/icon-knowledgeable.png" alt="Magnifying glass held up to planet Earth icon">
+				<div class="icon-item shadow">
+					<iconify-icon icon="healthicons:magnifying-glass" width="128" height="128">
+					</iconify-icon>
 					<p class="subtitle">Knowledgeable</p>
 				</div>
 			</div>
@@ -162,9 +165,18 @@
 				<img class="footer-logo" src="img/ReadySetTravel.png" alt="Ready Set Travel logo in white.">
 				<p class="footer-slogan">We can provide you with the best advice and tips for your dream trip.</p>
 				<div class="social-icons">
-					<a href="#" target="_blank"><img src="img/social-facebook.png" alt="Facebook icon"></a>
-					<a href="#" target="_blank"><img src="img/social-instagram.png" alt="Instagram icon"></a>
-					<a href="#" target="_blank"><img src="img/social-twitter.png" alt="Twitter icon"></a>
+					<a href="#" target="_blank">
+						<iconify-icon icon="entypo-social:facebook-with-circle" width="48px" height="48px">
+						</iconify-icon>
+					</a>
+					<a href="#" target="_blank">
+						<iconify-icon icon="entypo-social:instagram-with-circle" width="48px" height="48px">
+						</iconify-icon>
+					</a>
+					<a href="#" target="_blank">
+						<iconify-icon icon="entypo-social:twitter-with-circle" width="48px" height="48px">
+						</iconify-icon>
+					</a>
 				</div>
 			</div>
 			<div class="footer-item">
@@ -185,7 +197,9 @@
 			</div>
 		</div>
 	</footer>
-	<!-- Execute JavaScript -->
+	<!-- Load Iconify Icons -->
+	<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+	<!-- Load Custom Script -->
 	<script src="js/script.js"></script>
 </body>
 
