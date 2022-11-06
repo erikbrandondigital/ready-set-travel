@@ -22,7 +22,16 @@ All notable changes to the ReadySetTravel website project will be documented in 
 
 # Changes
 
-## [2022-11-05]
+## [2022-11-06 @ 3:45PM ET]
+
+### Added
+- In `.vscode` folder I added a workspace `settings.json` file that contains a list of ignored words for the Code Spell Checker Visual Studio Code extension.
+
+### Changed
+- In `index.html` I started refactoring the CSS class names by adding, modifying and removing existing CSS class names to match the new BEM CSS class names in `style.css` and `style-responsive.css`
+- In `style.css` & `style-responsive.css` I started refactoring the CSS class names to comply with the BEM CSS class naming methodology based no my current understanding. I also removed global typography, image and box-shadow styles and took a more modular approach by applying them to individual block elements instead. This way my existing CSS will work better with my HTML snippets.
+
+## [2022-11-05 @ 3:11PM ET]
 
 ### Changed
 
@@ -41,7 +50,7 @@ All notable changes to the ReadySetTravel website project will be documented in 
   - social.instagram.png
   - social-twitter.png
 
-## [2022-11-03]
+## [2022-11-03 @ 2:10PM ET]
 
 ### Added
 

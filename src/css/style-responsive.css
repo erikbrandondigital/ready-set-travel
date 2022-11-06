@@ -1,36 +1,36 @@
 /* * Mobile Breakpoints */
 @media (min-width: 640px) {
-	#searchForm {
+	.search__form {
 		flex-direction: row;
 	}
 
-	#searchForm input {
+	.search__input {
 		text-align: left;
 	}
 
-	.search-inner {
+	.search__container-inner {
 		width: 90%;
 		margin: 0 auto;
 	}
 
-	.tour-item img {
+	.tour__card-img {
 		aspect-ratio: auto;
 		height: 225px;
 	}
 
-	.destinations {
+	.destinations__grid {
 		grid-template-columns: 1fr 1fr;
 	}
 
-	footer .flex {
+	.footer__container {
 		flex-direction: row;
 	}
 
-	.social-icons {
+	.footer__icons {
 		justify-content: flex-start;
 	}
 
-	.footer-item {
+	.footer__item {
 		text-align: left;
 		width: initial;
 	}
@@ -38,53 +38,53 @@
 
 /* * Tablet Breakpoints */
 @media (min-width: 768px) {
-	.destinations {
+	.destinations__grid {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
 @media (min-width: 810px) {
-	.tours {
+	.tours__grid {
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
 /* * Header & Footer Breakpoints */
 @media (min-width: 830px) {
-	header .flex {
+	.header__container {
 		flex-direction: row;
 	}
 
-	header nav {
+	.header__menu {
 		flex-direction: row;
-		margin-top: 0;
+		margin: 0;
 	}
 
-	.footer-menu {
+	.footer__menu {
 		flex-direction: column;
 	}
 }
 
 /* * Desktop Breakpoints */
 @media (min-width: 1024px) {
-	.tours {
+	.tours__grid {
 		grid-template-columns: 1fr 1fr;
 	}
 
-	.tour-info .pricing {
+	.tour__card-pricing {
 		flex-direction: row;
 	}
 
-	.tour-info {
+	.tour__card-details {
 		text-align: left;
 	}
 
-	.destinations {
+	.destinations__grid {
 		grid-template-columns: 200px 1fr 2fr;
 		grid-template-rows: repeat(2, 200px);
 	}
 
-	.destination-item {
+	.destination__item {
 		aspect-ratio: auto;
 	}
 
@@ -92,18 +92,18 @@
 		grid-row: span 2;
 	}
 
-	.footer-slogan,
-	address {
+	.footer__slogan,
+	.footer__address {
 		margin: 0 0 1rem 0;
 	}
 
-	.social-icons {
+	.footer__icons {
 		justify-content: flex-start;
 	}
 }
 
 @media (min-width: 1306px) {
-	.tours {
+	.tours__grid {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
