@@ -47,7 +47,6 @@
  /* * Hero Section Styles */
  .hero {
  	padding: 2rem;
- 	background-image: url(../img/hero-bg.jpg);
  	background-repeat: no-repeat;
  	background-position: bottom;
  	background-size: cover;
@@ -55,6 +54,10 @@
  	display: flex;
  	align-items: center;
  	justify-content: center;
+ }
+
+ .hero--homepage {
+ 	background-image: url(../img/hero-bg.jpg);
  }
 
  .hero__background {
@@ -352,6 +355,26 @@
  	aspect-ratio: 1/1;
  }
 
+ .destination__item--machu {
+ 	background-image: url(../img/destinations-machu.jpg);
+ }
+
+ .destination__item--rome {
+ 	background-image: url(../img/destinations-rome.jpg);
+ }
+
+ .destination__item--sydney {
+ 	background-image: url(../img/destinations-sydney.jpg);
+ }
+
+ .destination__item--paris {
+ 	background-image: url(../img/destinations-paris.jpg);
+ }
+
+ .destination__item--rio {
+ 	background-image: url(../img/destinations-rio.jpg);
+ }
+
  .destination__item-description {
  	position: absolute;
  	left: 1rem;
@@ -372,26 +395,6 @@
  	font-size: 0.9375rem;
  	color: #ffffff;
  	margin: 0;
- }
-
- #machu {
- 	background-image: url(../img/destinations-machu.jpg);
- }
-
- #rome {
- 	background-image: url(../img/destinations-rome.jpg);
- }
-
- #sydney {
- 	background-image: url(../img/destinations-sydney.jpg);
- }
-
- #paris {
- 	background-image: url(../img/destinations-paris.jpg);
- }
-
- #rio {
- 	background-image: url(../img/destinations-rio.jpg);
  }
 
  /* * Footer Styles */

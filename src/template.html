@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReadySetTravel HTML Snippets</title>
+    <!-- Page Title -->
+    <title>ReadySetTravel HTML Snippets Template</title>
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Load CSS Reset -->
+    <link rel="stylesheet" href="css/modern-normalize.css">
+    <!-- Load Custom Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
 </head>
+
 <body>
-    
+
+    <!--! Header Section Snippet Start -->
+    <header class="header">
+        <div class="header__container">
+            <img class="header__logo" src="img/ReadySetTravel.png" alt="ReadySetTravel logo in black.">
+            <nav class="header__menu">
+                <a class="header__menu-item" href="#">About</a>
+                <a class="header__menu-item" href="#">Destinations</a>
+                <a class="header__menu-item" href="#">Tours</a>
+                <a class="header__menu-item" href="#">Blog</a>
+                <a class="header__menu-item" href="#">Book a Trip</a>
+            </nav>
+        </div>
+    </header>
+    <!--! Header Section Snippet End -->
+
+    <!--! Hero Section Snippet Start -->
+    <section class="hero" id="hero">
+        <div class="hero__background">
+            <h1 class="hero__title">Book the trip of a lifetime</h1>
+            <p class="hero__subtitle">Get the best advice and tips for your dream trip</p>
+        </div>
+    </section>
+    <!--! Hero Section Snippet End -->
+
+    <!--! Tour Card Start -->
+    <article class="tour__card">
+        <img class="tour__card-img" src="img/tour-mountainHiking.jpg" alt="A woman hiking up a mountain.">
+        <div class="tour__card-details">
+            <h4 class="tour__card-title">Alps Mountain Hiking Tour</h4>
+            <p class="tour__card-subtitle">4 days | 10 stops</p>
+            <div class="tour__card-pricing">
+                <p class="tour__card-price">$1,500</p>
+                <a class="tour__card-button" href="#">Book Now</a>
+            </div>
+        </div>
+    </article>
+    <!--! Tour Card End -->
+
+    <!--! Icon Card Start -->
+    <div class="about__card-icon">
+        <iconify-icon icon="healthicons:calendar" width="128" height="128">
+        </iconify-icon>
+        <p class="about__card-title">Easy Booking</p>
+    </div>
+    <!--! Icon Card End -->
+
+    <!--! Footer Section Snippet Start -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__item">
+                <img class="footer__logo" src="img/ReadySetTravel.png" alt="Ready Set Travel logo in white.">
+                <p class="footer__slogan">We can provide you with the best advice and tips for your
+                    dream trip.
+                </p>
+                <div class="footer__icons">
+                    <a class="footer__icon--link" href="#" target="_blank">
+                        <iconify-icon class="footer__icon" icon="entypo-social:facebook-with-circle" width="48px"
+                            height="48px">
+                        </iconify-icon>
+                    </a>
+                    <a class="footer__icon--link" href="#" target="_blank">
+                        <iconify-icon class="footer__icon" icon="entypo-social:instagram-with-circle" width="48px"
+                            height="48px">
+                        </iconify-icon>
+                    </a>
+                    <a class="footer__icon--link" href="#" target="_blank">
+                        <iconify-icon class="footer__icon" icon="entypo-social:twitter-with-circle" width="48px"
+                            height="48px">
+                        </iconify-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__item-title">Contact Us</h4>
+                <address class="footer__address">
+                    <p class="footer__text address">1234 Address Street Winter Park, FL 32792</p>
+                    <p><a class="footer__text" href="tel:1234567890" target="_blank">123-456-7890</a></p>
+                </address>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__item-title">Links</h4>
+                <nav class="footer__menu">
+                    <a class="footer__text" href="#">About</a>
+                    <a class="footer__text" href="#">Destinations</a>
+                    <a class="footer__text" href="#">Discover</a>
+                    <a class="footer__text" href="#">Blog</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!--! Footer Section Snippet End -->
+
+    <!-- Load Iconify Icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <!-- Load Custom Script -->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
