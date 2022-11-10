@@ -26,13 +26,17 @@
 		flex-direction: row;
 	}
 
+	.footer__item {
+		text-align: left;
+		width: initial;
+	}
+
 	.footer__icons {
 		justify-content: flex-start;
 	}
 
-	.footer__item {
-		text-align: left;
-		width: initial;
+	.footer__address {
+		margin: 0 1rem;
 	}
 }
 
@@ -49,17 +53,20 @@
 	}
 }
 
-/* * Header & Footer Breakpoints */
-@media (min-width: 830px) {
+/* * Header Breakpoints */
+@media (min-width: 884px) {
 	.header__container {
 		flex-direction: row;
 	}
 
 	.header__menu {
 		flex-direction: row;
-		margin: 0;
+		margin: 0 0 0 2rem;
 	}
+}
 
+/* * Footer Breakpoints */
+@media (min-width: 830px) {
 	.footer__menu {
 		flex-direction: column;
 	}
@@ -92,9 +99,12 @@
 		grid-row: span 2;
 	}
 
-	.footer__slogan,
-	.footer__address {
+	.footer__slogan {
 		margin: 0 0 1rem 0;
+	}
+
+	.footer__address {
+		margin: 0 1rem 1rem 1rem;
 	}
 
 	.footer__icons {

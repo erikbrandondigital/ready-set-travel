@@ -22,7 +22,7 @@ All notable changes to the ReadySetTravel website project will be documented in 
 
 # Changes
 
-## [2022-11-07]
+## [2022-11-07 @ 12:35PM ET]
 
 ### Added
 - In `docs > validation` I added additional screenshots of all modified HTML & CSS files from this week. All files successfully validated without warnings or errors.
