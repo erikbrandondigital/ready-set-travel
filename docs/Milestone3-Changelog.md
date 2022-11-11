@@ -22,7 +22,18 @@ All notable changes to the ReadySetTravel website project will be documented in 
 
 # Changes
 
-## [2022/11/09]
+## [2022/11/11]
+
+### Changed
+- In `style.css` and `style-responsive.css`, I added CSS BEM modifier classes for the hero background images on each of the four secondary HTML pages. I added an additional section in the `style.css` file containing generic styling for a new section title and subtitle component I created. Since I started using the generic section component, I refactored my homepage and removed CSS classes that were specific to the tours, about us and destinations sections. I also added hover animations for buttons in the tour cards and search form and changed the destination background image urls from local files to external Unsplash.com URLs. In `style-responsive.css` I increased the min-width of the header breakpoint.
+- In `index.html` I added a Home link to the header and footer nav menus. I changed all `<img src="">` attributes to use external Unsplash.com URLs instead of local image files except for the Ready Set Travel logo. I replaced any section specific BEM classes in the tours, about us and destinations sections with the generic section component I created.
+- In `template.html`, I updated the header and footer snippets to include an additional nav link to the home page. I added three additional snippets for generic section components. Lastly, I updated the hero section `<section>` element to include a BEM CSS modifier class name that updates the background-image of the hero section based on the modifier class name and setting in the `style.css` file.
+- In `about.html`, `blog.html`, `destinations.html` & `tours.html` I added a header component, footer component and main section to each page. I also added a hero section component for each page and a few generic section components based on the Figma Prototype. In each page, I updated the hero images and section content to match the Figma prototype for each page.
+
+### Removed
+- In `dev > readysettravel > img` folder, I removed all of the image files that were included in the original project to save storage space except for the logo image. The images that were removed were replaced with Unsplash URLs in the HTML & CSS files and are therefore no longer required.
+
+## [2022/11/09 @ 11:49PM ET]
 
 ### Added
 - Added the following new pages to the project with their initial HTML emmet abbreviations, stylesheets and scripts:

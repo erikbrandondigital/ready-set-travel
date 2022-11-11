@@ -77,7 +77,25 @@
  }
 
  .hero--homepage {
- 	background-image: url(../img/hero-bg.jpg);
+ 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1500964757637-c85e8a162699");
+ }
+
+ .hero--about {
+ 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1536607961765-592e80bcc19e");
+ 	background-position: center;
+ }
+
+ .hero--blog {
+ 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1527142879-95b61a0b8226");
+ }
+
+ .hero--destinations {
+ 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1488085061387-422e29b40080");
+ 	background-position: center;
+ }
+
+ .hero--tours {
+ 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1598710877888-edaa20acfb92");
  }
 
  .hero__background {
@@ -99,6 +117,52 @@
  	font-size: 1.25rem;
  	color: #ffffff;
  	margin: 0 0 1rem 0;
+ }
+
+ /* * Generic Section Styles */
+ .section {
+ 	padding: 2rem;
+ }
+
+ .section--gray {
+ 	background-color: #e7ecf3;
+ }
+
+ .section--white {
+ 	background-color: #ffffff;
+ }
+
+ .section__container {
+ 	max-width: 1280px;
+ 	margin: 0 auto;
+ }
+
+ .section__title {
+ 	font-family: "Abril Fatface", cursive;
+ 	font-weight: 400;
+ 	font-size: 2.5rem;
+ 	margin: 0 0 1rem 0;
+ 	color: #222222;
+ }
+
+ .section__title--orange {
+ 	color: #ee8a5a;
+ }
+
+ .section__title--centered {
+ 	text-align: center;
+ }
+
+ .section__subtitle {
+ 	font-family: "Roboto", sans-serif;
+ 	font-weight: 300;
+ 	font-size: 1.25rem;
+ 	color: #444444;
+ 	margin: 0 0 1rem 0;
+ }
+
+ .section__subtitle--centered {
+ 	text-align: center;
  }
 
  /* * Search Section Styles */
@@ -160,35 +224,14 @@
  	font-family: 'Roboto', sans-serif;
  	font-size: 1.25rem;
  	font-weight: 500;
+ 	transition: ease .6s;
+ }
+
+ .search__button:hover {
+ 	background-color: #587c93;
  }
 
  /* * Tours Styles */
- .tours {
- 	padding: 2rem;
- 	background-color: #e7ecf3;
- }
-
- .tours__container {
- 	max-width: 1280px;
- 	margin: 0 auto;
- }
-
- .tours__title {
- 	font-family: "Abril Fatface", cursive;
- 	font-weight: 400;
- 	font-size: 2.5rem;
- 	margin: 0 0 1rem 0;
- 	color: #222222;
- }
-
- .tours__subtitle {
- 	font-family: "Roboto", sans-serif;
- 	font-weight: 300;
- 	font-size: 1.25rem;
- 	color: #444444;
- 	margin: 0 0 1rem 0;
- }
-
  .tours__grid {
  	display: grid;
  	grid-template-columns: 1fr;
@@ -263,40 +306,14 @@
  	font-weight: 500;
  	text-align: center;
  	flex: 1;
+ 	transition: ease .6s;
+ }
+
+ .tour__card-button:hover {
+ 	background-color: #587c93;
  }
 
  /* * About Us Styles */
- .about {
- 	padding: 2rem 2rem 0 2rem;
- 	text-align: center;
- }
-
- .about__container {
- 	max-width: 1280px;
- 	margin: 0 auto;
- }
-
- .about__title {
- 	font-family: "Abril Fatface", cursive;
- 	font-weight: 400;
- 	font-size: 2.5rem;
- 	margin: 0 0 1rem 0;
- 	color: #222222;
- }
-
- .about__title--orange {
- 	color: #ee8a5a;
- }
-
- .about__subtitle {
- 	font-family: "Roboto", sans-serif;
- 	font-weight: 300;
- 	font-size: 1.25rem;
- 	color: #444444;
- 	max-width: 442px;
- 	margin: 0 auto;
- }
-
  .about__icon-cards {
  	display: flex;
  	flex-direction: row;
@@ -329,31 +346,6 @@
  }
 
  /* * Destinations Styles */
- .destinations {
- 	padding: 2rem;
- }
-
- .destinations__container {
- 	max-width: 1280px;
- 	margin: 0 auto;
- }
-
- .destinations__title {
- 	font-family: "Abril Fatface", cursive;
- 	font-weight: 400;
- 	font-size: 2.5rem;
- 	margin: 0 0 1rem 0;
- 	color: #222222;
- }
-
- .destinations__subtitle {
- 	font-family: "Roboto", sans-serif;
- 	font-weight: 300;
- 	font-size: 1.25rem;
- 	color: #444444;
- 	margin: 0 0 1rem 0;
- }
-
  .destinations__grid {
  	display: grid;
  	grid-template-columns: 1fr;
@@ -376,23 +368,23 @@
  }
 
  .destination__item--machu {
- 	background-image: url(../img/destinations-machu.jpg);
+ 	background-image: url("https://images.unsplash.com/photo-1609944433409-81bda5323abc");
  }
 
  .destination__item--rome {
- 	background-image: url(../img/destinations-rome.jpg);
+ 	background-image: url("https://images.unsplash.com/photo-1542820229-081e0c12af0b");
  }
 
  .destination__item--sydney {
- 	background-image: url(../img/destinations-sydney.jpg);
+ 	background-image: url("https://images.unsplash.com/photo-1523428096881-5bd79d043006");
  }
 
  .destination__item--paris {
- 	background-image: url(../img/destinations-paris.jpg);
+ 	background-image: url("https://images.unsplash.com/photo-1550340499-a6c60fc8287c");
  }
 
  .destination__item--rio {
- 	background-image: url(../img/destinations-rio.jpg);
+ 	background-image: url("https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f");
  }
 
  .destination__item-description {

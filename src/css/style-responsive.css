@@ -54,7 +54,7 @@
 }
 
 /* * Header Breakpoints */
-@media (min-width: 884px) {
+@media (min-width: 974px) {
 	.header__container {
 		flex-direction: row;
 	}
