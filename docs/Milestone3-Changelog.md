@@ -22,7 +22,20 @@ All notable changes to the ReadySetTravel website project will be documented in 
 
 # Changes
 
-## [2022/11/11]
+## [2022/11/13]
+
+### Changed
+- In `style.css` I added a BEM modifier class to the section container component and a few additional CSS classes to adjust the layout and text styling of the `Our Story` section on the about page. I added a bunch of new styles for the article card, logo card, profile card, and destination card components on the blog, about and destination pages. I renamed the about card icon class to icon card to generalize the naming of that component. I tweaked the appearance of the tour card component to match the other card components I built and improve UI consistency.
+- In `style-responsive.css` I added a few new classes for the destination, profile and article card components to make them responsive.
+- For `All HTML files` I disabled the line length limit in Visual Studio Code in favor of using word wrap instead because the formatter was breaking paragraphs and other long lines into weird and poorly formatted chunks. Now with word wrap enabled, the html is much easier to read in my opinion.
+- In `about.html` I filled in the icon and profile grids with icon and article card components. I created a split section in the `Our Story` section containing a logo card and filled in the rest of the page content based on my Figma prototype.
+- In `blog.html` I filled in the article grids with article card components and filled in the page content based on my Figma prototype.
+- In `destinations.html` I filled in the destination grids with destination card components and filled in the page content based on my Figma prototype.
+- In `tours.html` I filled in the tour grids with tour card components and filled in the page content based on my Figma prototype.
+- In `index.html` I renamed about cards to icon cards to generalize the component name and make it non-specific.
+- In `template.html` I added snippets for the profile, destination, article and logo card components. I also replaced some content and HTML attributes with placeholder data so that page specific content isn't copied between pages when utilizing the snippets.
+
+## [2022/11/11 @ 05:23PM ET]
 
 ### Changed
 - In `style.css` and `style-responsive.css`, I added CSS BEM modifier classes for the hero background images on each of the four secondary HTML pages. I added an additional section in the `style.css` file containing generic styling for a new section title and subtitle component I created. Since I started using the generic section component, I refactored my homepage and removed CSS classes that were specific to the tours, about us and destinations sections. I also added hover animations for buttons in the tour cards and search form and changed the destination background image urls from local files to external Unsplash.com URLs. In `style-responsive.css` I increased the min-width of the header breakpoint.
