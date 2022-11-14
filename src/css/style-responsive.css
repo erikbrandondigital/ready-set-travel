@@ -1,69 +1,30 @@
-/* * Mobile Breakpoints */
-@media (min-width: 640px) {
-	.search__form {
+/* * Header Component Styles */
+@media (min-width: 974px) {
+	.header__container {
 		flex-direction: row;
 	}
 
-	.search__input {
-		text-align: left;
-	}
-
-	.search__container-inner {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.tour__card-img {
-		aspect-ratio: auto;
-		height: 225px;
-	}
-
-	.profile__card-img {
-		aspect-ratio: auto;
-		height: 225px;
-	}
-
-	.destination__card-img {
-		aspect-ratio: auto;
-		height: 225px;
-	}
-
-	.destinations__grid {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.footer__container {
+	.header__menu {
 		flex-direction: row;
-	}
-
-	.footer__item {
-		text-align: left;
-		width: initial;
-	}
-
-	.footer__icons {
-		justify-content: flex-start;
-	}
-
-	.footer__address {
-		margin: 0 1rem;
+		margin: 0 0 0 2rem;
 	}
 }
 
-/* * Tablet Breakpoints */
+/* * Section Component Styles */
+@media (min-width: 1024px) {
+	.section__container--split {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 1306px) {
+	.section__container--split {
+		align-items: flex-start;
+	}
+}
+
+/* * Article Card Component Styles */
 @media (min-width: 768px) {
-	.destinations__grid {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	.profiles__grid {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.destination-cards__grid {
-		grid-template-columns: 1fr 1fr;
-	}
-
 	.article__card {
 		flex-direction: row-reverse;
 		justify-content: space-between;
@@ -88,13 +49,21 @@
 	}
 }
 
-@media (min-width: 810px) {
-	.tours__grid {
-		grid-template-columns: 1fr 1fr;
+/* * Destination Styles */
+@media (min-width: 640px) {
+	.destination__card-img {
+		aspect-ratio: auto;
+		height: 225px;
 	}
 
-	.profiles__grid {
+	.destinations__grid {
 		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 768px) {
+	.destinations__grid {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	.destination-cards__grid {
@@ -102,52 +71,13 @@
 	}
 }
 
-/* * Header Breakpoints */
-@media (min-width: 974px) {
-	.header__container {
-		flex-direction: row;
-	}
-
-	.header__menu {
-		flex-direction: row;
-		margin: 0 0 0 2rem;
+@media (min-width: 810px) {
+	.destination-cards__grid {
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
-/* * Footer Breakpoints */
-@media (min-width: 830px) {
-	.footer__menu {
-		flex-direction: column;
-	}
-}
-
-/* * Desktop Breakpoints */
 @media (min-width: 1024px) {
-	.tours__grid {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.tour__card-pricing {
-		flex-direction: row;
-	}
-
-	.tour__card-details {
-		text-align: left;
-	}
-
-	.profiles__grid {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.profile__card-details {
-		text-align: left;
-		flex-direction: row;
-	}
-
-	.section__container--split {
-		flex-direction: row;
-	}
-
 	.destination-cards__grid {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -156,7 +86,6 @@
 		text-align: left;
 		flex-direction: row;
 	}
-
 
 	.destinations__grid {
 		grid-template-columns: 200px 1fr 2fr;
@@ -170,7 +99,128 @@
 	.destination__item--span-2 {
 		grid-row: span 2;
 	}
+}
 
+@media (min-width: 1306px) {
+	.destination-cards__grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* * Profile Card Component Styles */
+@media (min-width: 640px) {
+	.profile__card-img {
+		aspect-ratio: auto;
+		height: 225px;
+	}
+}
+
+@media (min-width: 768px) {
+	.profiles__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 810px) {
+	.profiles__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1024px) {
+	.profiles__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.profile__card-details {
+		text-align: left;
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 1306px) {
+	.profiles__grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* * Search Component Styles */
+@media (min-width: 640px) {
+	.search__form {
+		flex-direction: row;
+	}
+
+	.search__input {
+		text-align: left;
+	}
+
+	.search__container-inner {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* * Tour Card Component Styles */
+@media (min-width: 640px) {
+	.tour__card-img {
+		aspect-ratio: auto;
+		height: 225px;
+	}
+}
+
+@media (min-width: 810px) {
+	.tours__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1024px) {
+	.tours__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.tour__card-pricing {
+		flex-direction: row;
+	}
+
+	.tour__card-details {
+		text-align: left;
+	}
+}
+
+@media (min-width: 1306px) {
+	.tours__grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* * Footer Component Styles */
+@media (min-width: 640px) {
+	.footer__container {
+		flex-direction: row;
+	}
+
+	.footer__item {
+		text-align: left;
+		width: initial;
+	}
+
+	.footer__icons {
+		justify-content: flex-start;
+	}
+
+	.footer__address {
+		margin: 0 1rem;
+	}
+}
+
+@media (min-width: 830px) {
+	.footer__menu {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 1024px) {
 	.footer__slogan {
 		margin: 0 0 1rem 0;
 	}
@@ -181,23 +231,5 @@
 
 	.footer__icons {
 		justify-content: flex-start;
-	}
-}
-
-@media (min-width: 1306px) {
-	.tours__grid {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	.profiles__grid {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	.section__container--split {
-		align-items: flex-start;
-	}
-
-	.destination-cards__grid {
-		grid-template-columns: 1fr 1fr 1fr;
 	}
 }

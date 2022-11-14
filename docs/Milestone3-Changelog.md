@@ -22,7 +22,23 @@ All notable changes to the ReadySetTravel website project will be documented in 
 
 # Changes
 
-## [2022/11/13]
+## [2022/11/14]
+
+### Added
+- In `docs > validation` I successfully validated all HTML and CSS files with no warnings or errors. I've added 8 screenshot image files to the folder showing the results.
+
+### Changed
+- In `README.md` I added my Week Three Milestone 3 Standup.
+- In `style-responsive.css` I refactored and reorganized the code. Instead of grouping the CSS rules of multiple different components under a few single media queries, I grouped the CSS rules by component with multiple media queries per component. In my opinion, it is now much easier to modify the CSS for each component instead of having to find the right rules across a few media queries. Based on my research into how browsers process media queries this change should have a minimal effect on performance.
+- In `style.css` I reorganized two CSS rules and moved them into a more logical top to bottom order to match the hierarchy of the corresponding HTML component.
+- In `about.html` I updated all img alt attributes to match their corresponding images. I added an aria-label to the social media links in the footer to improve accessibility. Lastly, I changed a few heading tags to fix an accessibility issue detected by Chrome Dev tools that said some headings were not in sequential order.
+- In `blog.html` I updated all img alt attributes to match their corresponding images. I adjusted the "Read More" buttons to say "Read The Article" instead to be more descriptive and improve accessibility for users using screen readers. I added an aria-label to the social media links in the footer to improve accessibility. I also tweaked some of the article excerpts.
+- In `destinations.html` I updated all img alt attributes to match their corresponding images. I added an aria-label to the social media links in the footer to improve accessibility. Lastly, I changed a few heading tags to fix an accessibility issue detected by Chrome Dev tools that said some headings were not in sequential order. I also fixed a typo where one of the country names was inaccurate.
+- In `index.html` I updated all img alt attributes to match their corresponding images. I added an aria-label to the social media links in the footer to improve accessibility. Lastly, I changed a few heading tags to fix an accessibility issue detected by Chrome Dev tools that said some headings were not in sequential order.
+- In `template.html` I updated the footer snippet to include an aria-label in the social media links in the footer to improve accessibility.
+- In `tours.html` I updated all img alt attributes to match their corresponding images. I added an aria-label to the social media links in the footer to improve accessibility. Lastly, I changed a few heading tags to fix an accessibility issue detected by Chrome Dev tools that said some headings were not in sequential order.
+
+## [2022/11/13 @ 06:38PM ET]
 
 ### Changed
 - In `style.css` I added a BEM modifier class to the section container component and a few additional CSS classes to adjust the layout and text styling of the `Our Story` section on the about page. I added a bunch of new styles for the article card, logo card, profile card, and destination card components on the blog, about and destination pages. I renamed the about card icon class to icon card to generalize the naming of that component. I tweaked the appearance of the tour card component to match the other card components I built and improve UI consistency.
