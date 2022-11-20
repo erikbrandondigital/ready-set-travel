@@ -47,21 +47,21 @@
  }
 
  .header__menu-link:hover {
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	text-decoration: none;
  }
 
  .header__menu-link--button {
  	padding: 1rem 2rem;
- 	background-color: #ee8a5a;
+ 	background-color: #bf5837;
  	color: #ffffff;
- 	box-shadow: 0 10px 15px -3px rgb(238, 138, 90, 0.4), 0 4px 6px -4px rgb(238, 138, 90, 0.4);
+ 	box-shadow: 0 10px 15px -3px rgb(191, 88, 55, 0.4), 0 4px 6px -4px rgb(191, 88, 55, 0.4);
  }
 
  .header__menu-link--button:hover {
- 	background-color: rgb(88, 124, 147);
- 	box-shadow: 0 10px 15px -3px rgb(88, 124, 147, 0.4), 0 4px 6px -4px rgb(88, 124, 147, 0.4);
+ 	background-color: #41576c;
+ 	box-shadow: 0 10px 15px -3px rgb(65, 87, 108, 0.4), 0 4px 6px -4px rgb(65, 87, 108, 0.4);
  }
 
  /* * Hero Section Styles */
@@ -157,7 +157,7 @@
  }
 
  .section__title--orange {
- 	color: #ee8a5a;
+ 	color: #BF5837;
  }
 
  .section__title--centered {
@@ -190,7 +190,7 @@
  }
 
  .search__container {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  	max-width: 1024px;
  	padding: 2rem;
  	border-radius: 1rem;
@@ -231,12 +231,23 @@
  	font-weight: 500;
  	font-size: 1rem;
  	color: #222222;
+ 	transition: ease .6s;
+ }
+
+ .search__input:focus,
+ .search__input:hover {
+ 	background-color: #e7ecf3;
+ }
+
+ .search__input:focus-visible {
+ 	background-color: #e7ecf3;
+ 	outline: 2px solid #BF5837;
  }
 
  .search__button {
  	border-radius: 0.5rem;
  	padding: 1rem 3rem;
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	border: none;
  	cursor: pointer;
@@ -247,7 +258,7 @@
  }
 
  .search__button:hover {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  }
 
  /* * Article Card Styles */
@@ -317,7 +328,7 @@
 
  .article__card-button {
  	width: 100%;
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	cursor: pointer;
  	padding: 1rem;
@@ -331,7 +342,7 @@
  }
 
  .article__card-button:hover {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  }
 
  /* * Tour Card Styles */
@@ -397,7 +408,7 @@
  }
 
  .tour__card-button {
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	cursor: pointer;
  	padding: 1rem 1rem;
@@ -412,7 +423,7 @@
  }
 
  .tour__card-button:hover {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  }
 
  /* * Profile Card Styles */
@@ -470,7 +481,7 @@
  }
 
  .profile__card-button {
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	cursor: pointer;
  	padding: 1rem;
@@ -484,7 +495,7 @@
  }
 
  .profile__card-button:hover {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  }
 
  /* * Destination Card Styles */
@@ -542,7 +553,7 @@
  }
 
  .destination__card-button {
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	cursor: pointer;
  	padding: 1rem;
@@ -556,7 +567,7 @@
  }
 
  .destination__card-button:hover {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  }
 
  /* * Icon Card Styles */
@@ -578,7 +589,7 @@
  	flex-direction: column;
  	justify-content: center;
  	align-items: center;
- 	color: #ee8a5a;
+ 	color: #BF5837;
  	background-color: #ffffff;
  	border: 1px solid rgba(0, 0, 0, 0.1);
  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -683,7 +694,7 @@
 
  /* * Footer Styles */
  .footer {
- 	background-color: #587c93;
+ 	background-color: #41576C;
  	padding: 4rem 2rem;
  }
 
@@ -785,7 +796,7 @@
  }
 
  .footer__menu-link:hover {
- 	background-color: #ee8a5a;
+ 	background-color: #BF5837;
  	color: #ffffff;
  	text-decoration: none;
  }

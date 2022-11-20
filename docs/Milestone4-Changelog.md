@@ -22,7 +22,14 @@ All notable changes to the ReadySetTravel website project will be documented in 
 
 # Changes
 
-## [2022/11/19]
+## [2022/11/20]
+
+### Changed
+- In `style.css` I changed the website color scheme for better contrast between text and background colors. Orange buttons and elements and the footer and search container background colors are now a darker shade to increase contrast with white text for better user accessibility. I also added some `hover`, `focus`, and `focus-visible` styles to the `search__input` field to add visual feedback when the search field is focused on the homepage.
+- In `about.html`, `blog.html`, `destinations.html`, `index.html`, `template.html` and `tours.html`, I added `aria-hidden` attributes to all custom `<iconify-icon>` elements in the main and footer sections of each page to improve accessibility. Since the icons are loaded without labels using JS, hiding them is the best option to improve accessibility.
+- In `index.html` I added a hidden label for the `search__input` field to improve accessibility for screen reader users while also preserving the original design of the field for non-screen reader users.
+
+## [2022/11/19 @ 11:12PM ET]
 
 ### Added
 - In `Milestone4-Changelog.md` I added my first changelog entry for week four.
