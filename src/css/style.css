@@ -723,6 +723,15 @@
  	margin: 0 auto 1rem auto;
  }
 
+ .footer__copyright {
+ 	font-family: "Roboto", sans-serif;
+ 	font-weight: 300;
+ 	font-size: 1rem;
+ 	color: #ffffff;
+ 	max-width: 246px;
+ 	margin: 0 auto 1rem auto;
+ }
+
  .footer__icons {
  	display: flex;
  	flex-direction: row;
