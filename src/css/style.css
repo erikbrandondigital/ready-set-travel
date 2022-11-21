@@ -46,6 +46,12 @@
  	transition: ease .6s;
  }
 
+ .header__menu-link--current {
+ 	background-color: #BF5837;
+ 	color: #ffffff;
+ 	text-decoration: none;
+ }
+
  .header__menu-link:hover {
  	background-color: #BF5837;
  	color: #ffffff;
@@ -240,7 +246,6 @@
  }
 
  .search__input:focus-visible {
- 	background-color: #e7ecf3;
  	outline: 2px solid #BF5837;
  }
 
@@ -793,6 +798,12 @@
  	color: #222222;
  	text-decoration: none;
  	transition: ease .6s;
+ }
+
+ .footer__menu-link--current {
+ 	background-color: #BF5837;
+ 	color: #ffffff;
+ 	text-decoration: none;
  }
 
  .footer__menu-link:hover {
