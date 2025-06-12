@@ -1,6 +1,8 @@
 # Ready Set Travel
 
-Ready Set Travel is a static, multi-page, responsive, HTML, CSS & JavaScript website that I designed and developed for a fictional travel agency. The purpose of this project was to test my web design and development skills and learn how to use Git and GitHub for version control, while practicing common agile software development processes. On top of those basic skills I successfully implemented the [BEM CSS](https://getbem.com) class naming methodology to create what I believe to be a functional, responsive and well-designed website and a clean and organized codebase and project. But don't take my word for it! Each HTML and CSS file was validated using the W3C Validator and has 0 errors.
+Ready Set Travel is a static, multi-page, responsive, HTML, CSS & JavaScript website that I designed and developed for a fictional travel agency. The purpose of this project was to test my web design and development skills and learn how to use Git and GitHub for version control, while practicing common agile software development processes. 
+
+On top of those basic skills I successfully implemented the [BEM CSS](https://getbem.com) class naming methodology to create what I believe to be a functional, responsive and well-designed website and a clean and organized codebase and project. But don't take my word for it! Each HTML and CSS file was validated using the W3C Validator and has 0 errors.
 
 ## Documentation
 
